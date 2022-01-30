@@ -14,6 +14,6 @@ class Solution():
                 return [self.indices[diff], i]
             self.indices[ele] = i
             
-
+# driver code
 obj = Solution()
 print(obj.twoSum([2,7,11,15], 9))

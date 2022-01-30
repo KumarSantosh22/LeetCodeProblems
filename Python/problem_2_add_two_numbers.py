@@ -1,9 +1,4 @@
-# Definition for singly-linked list.
-
-from logging import root
-from select import select
-
-
+# Definition for singly-linked list
 class ListNode():
     def __init__(self, val=0, next=None):
         self.val = val
@@ -46,7 +41,8 @@ class Solution():
             ptr = ptr.next
         ptr.next = node
         
-        
+
+# driver code
 node  = Solution()
 node.append(2)
 node.append(4)
